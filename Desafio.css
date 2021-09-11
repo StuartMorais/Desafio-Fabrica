@@ -73,12 +73,6 @@ section.mostrarName header{
     flex-direction: row;
 }
 
-section.mostrarName .seeList{
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-}
-
 section.mostrarName button{
     color: var(--shape);
     background-color: var(--green);
