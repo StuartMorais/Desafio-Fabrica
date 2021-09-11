@@ -1,0 +1,90 @@
+:root {
+    --background: #F0F2F5;
+    --red: #E62E4D;
+    --blue: #5429CC;
+    --green: #33CC95;
+    --blue-light: #6933FF;
+    --text-title: #363F5F;
+    --text-body: #969CB3;
+    --shape: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+.header header img {
+    max-width: 5rem;
+}
+
+.header{
+    background-color: var(--shape);
+}
+
+body{
+    background-color: var(--background);
+    font: 16px "Poppins", Arial, sans-serif;
+}
+
+section.mostrarName .seeList{
+    font: 20px "Poppins", Arial, sans-serif;
+}
+
+.conteiner{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.header header{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 2rem 1rem 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.header header{
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    align-items: center;
+}
+
+section.mostrarName{
+    background-color: var(--blue);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+section.mostrarName header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+section.mostrarName .seeList{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+section.mostrarName button{
+    color: var(--shape);
+    background-color: var(--green);
+    border: 0;
+    padding: 0.50rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    margin-top: 11.5rem;
+}
